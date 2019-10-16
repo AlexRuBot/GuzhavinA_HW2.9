@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C5C35AB7053CF0BD65EB71E /* Pods_GuzhavinA_HW2_9.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1243A4920954CC376CF22246 /* Pods_GuzhavinA_HW2_9.framework */; };
 		748D20D523578F48006CBA0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748D20D423578F48006CBA0A /* AppDelegate.swift */; };
 		748D20D723578F48006CBA0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748D20D623578F48006CBA0A /* SceneDelegate.swift */; };
-		748D20D923578F48006CBA0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748D20D823578F48006CBA0A /* ViewController.swift */; };
 		748D20DC23578F48006CBA0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748D20DA23578F48006CBA0A /* Main.storyboard */; };
 		748D20DE23578F4A006CBA0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748D20DD23578F4A006CBA0A /* Assets.xcassets */; };
 		748D20E123578F4A006CBA0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748D20DF23578F4A006CBA0A /* LaunchScreen.storyboard */; };
+		748D20E92357947B006CBA0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748D20E82357947B006CBA0A /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1243A4920954CC376CF22246 /* Pods_GuzhavinA_HW2_9.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuzhavinA_HW2_9.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B94981DB58487BC1779547 /* Pods-GuzhavinA_HW2.9.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuzhavinA_HW2.9.release.xcconfig"; path = "Target Support Files/Pods-GuzhavinA_HW2.9/Pods-GuzhavinA_HW2.9.release.xcconfig"; sourceTree = "<group>"; };
 		748D20D123578F48006CBA0A /* GuzhavinA_HW2.9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuzhavinA_HW2.9.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		748D20D423578F48006CBA0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		748D20D623578F48006CBA0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		748D20D823578F48006CBA0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		748D20DB23578F48006CBA0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		748D20DD23578F4A006CBA0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		748D20E023578F4A006CBA0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		748D20E223578F4A006CBA0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		748D20E82357947B006CBA0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD39047E8BE035EFBA1D7F3E /* Pods-GuzhavinA_HW2.9.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuzhavinA_HW2.9.debug.xcconfig"; path = "Target Support Files/Pods-GuzhavinA_HW2.9/Pods-GuzhavinA_HW2.9.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C5C35AB7053CF0BD65EB71E /* Pods_GuzhavinA_HW2_9.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				748D20D323578F48006CBA0A /* GuzhavinA_HW2.9 */,
 				748D20D223578F48006CBA0A /* Products */,
+				9C2AC50005283BEFCCEBA7A5 /* Pods */,
+				A0CE6B06881EB0C548E15510 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +65,30 @@
 			children = (
 				748D20D423578F48006CBA0A /* AppDelegate.swift */,
 				748D20D623578F48006CBA0A /* SceneDelegate.swift */,
-				748D20D823578F48006CBA0A /* ViewController.swift */,
+				748D20E82357947B006CBA0A /* ViewController.swift */,
 				748D20DA23578F48006CBA0A /* Main.storyboard */,
 				748D20DD23578F4A006CBA0A /* Assets.xcassets */,
 				748D20DF23578F4A006CBA0A /* LaunchScreen.storyboard */,
 				748D20E223578F4A006CBA0A /* Info.plist */,
 			);
 			path = GuzhavinA_HW2.9;
+			sourceTree = "<group>";
+		};
+		9C2AC50005283BEFCCEBA7A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD39047E8BE035EFBA1D7F3E /* Pods-GuzhavinA_HW2.9.debug.xcconfig */,
+				57B94981DB58487BC1779547 /* Pods-GuzhavinA_HW2.9.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A0CE6B06881EB0C548E15510 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1243A4920954CC376CF22246 /* Pods_GuzhavinA_HW2_9.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 748D20E523578F4A006CBA0A /* Build configuration list for PBXNativeTarget "GuzhavinA_HW2.9" */;
 			buildPhases = (
+				156B3AB142C1974C8AD9FB53 /* [CP] Check Pods Manifest.lock */,
 				748D20CD23578F48006CBA0A /* Sources */,
 				748D20CE23578F48006CBA0A /* Frameworks */,
 				748D20CF23578F48006CBA0A /* Resources */,
+				AB79BDAC627803FCD8018442 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +159,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		156B3AB142C1974C8AD9FB53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GuzhavinA_HW2.9-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB79BDAC627803FCD8018442 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GuzhavinA_HW2.9/Pods-GuzhavinA_HW2.9-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GuzhavinA_HW2.9/Pods-GuzhavinA_HW2.9-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		748D20CD23578F48006CBA0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				748D20D923578F48006CBA0A /* ViewController.swift in Sources */,
+				748D20E92357947B006CBA0A /* ViewController.swift in Sources */,
 				748D20D523578F48006CBA0A /* AppDelegate.swift in Sources */,
 				748D20D723578F48006CBA0A /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +355,7 @@
 		};
 		748D20E623578F4A006CBA0A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD39047E8BE035EFBA1D7F3E /* Pods-GuzhavinA_HW2.9.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +374,7 @@
 		};
 		748D20E723578F4A006CBA0A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57B94981DB58487BC1779547 /* Pods-GuzhavinA_HW2.9.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
