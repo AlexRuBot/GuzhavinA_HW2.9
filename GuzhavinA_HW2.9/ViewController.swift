@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet var lableView: [UILabel]!
     @IBOutlet weak var buttionAnimation: UIButton!
     
-    var number: [CGFloat] = [2, 3, 4, 5, 6]
+    var number: [CGFloat] = [1, 2, 3, 4, 5]
     var animation = [
         "shake",
         "pop",
@@ -75,12 +75,20 @@ class ViewController: UIViewController {
         "easeInOutBack"
     ]
     
+    private func goBack() {
+        viewAnimation.animation = "fadeIn"
+        viewAnimation.curve = "easeIn"
+        viewAnimation.duration = 1
+        viewAnimation.force = 1
+        viewAnimation.animate()
+    }
+    
     @IBAction func goAnimation() {
         
         viewAnimation.animation = animation.first!
         viewAnimation.curve = animationCurve.first!
         viewAnimation.force = number.first!
-        viewAnimation.duration = number.first! - 1
+        viewAnimation.duration = viewAnimation.force.binade - 1.0
         
         
         lableView[0].text = "Animation = \(animation.first!)"
@@ -95,5 +103,6 @@ class ViewController: UIViewController {
         buttionAnimation.setTitle(animation.first!, for: .normal)
         
         viewAnimation.animate()
+        goBack()
     }
 }
